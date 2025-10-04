@@ -1,26 +1,16 @@
 {
-    "logo": {
-        "url": "/images/logo-dark.svg",
-        "altText": "Logo dark",
-        "styles": {
-            "self": {
-                "margin": ["mr-3"]
-            }
-        },
-        "type": "ImageBlock"
-    },
     "primaryLinks": [
         {
-            "label": "Pricing",
-            "url": "/pricing",
+            "label": "Home",
+            "url": "/",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
             "type": "Link"
         },
         {
-            "label": "Blog",
-            "altText": "Blog",
+            "label": "Chaos Wheel",
+            "altText": "Chaos Wheel",
             "url": "/blog",
             "icon": "arrowRight",
             "iconPosition": "right",
@@ -28,8 +18,8 @@
             "type": "Link"
         },
         {
-            "label": "Careers",
-            "altText": "Careers page",
+            "label": "CZ Broadcast",
+            "altText": "CZ Broadcast page",
             "url": "/careers",
             "icon": "arrowRight",
             "iconPosition": "right",
@@ -69,26 +59,8 @@
             "type": "SubNav"
         }
     ],
-    "secondaryLinks": [
-        {
-            "label": "Sign up",
-            "altText": "Sign up",
-            "url": "https://app.netlify.com/signup",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "type": "Button"
-        },
-        {
-            "label": "Log in",
-            "url": "/",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "primary",
-            "type": "Button"
-        }
-    ],
+    "secondaryLinks": [],
     "variant": "logo-left-primary-nav-centered",
-    "colors": "bg-light-fg-dark",
+    "colors": "bg-yellow-fg-dark",
     "type": "Header"
 }

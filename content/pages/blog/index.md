@@ -1,14 +1,14 @@
 ---
-title: Blog
+title: Chaos Wheel
 slug: /blog
 numOfPostsPerPage: 8
 enableSearch: true
 topSections:
   - title:
-      text: Featured Post
-      color: text-dark
+      text: Chaos Wheel
+      color: text-primary
       type: TitleBlock
-    subtitle: This is the subtitle
+    subtitle: Where chaos meets opportunity in the crypto space
     posts:
       - content/pages/blog/top-ten-lessons-we-learned.md
     showThumbnail: true
@@ -16,7 +16,7 @@ topSections:
     showDate: true
     showAuthor: true
     variant: big-list
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         padding:
@@ -31,11 +31,10 @@ styles:
   title:
     textAlign: center
 seo:
-  metaTitle: Blog - Demo site
+  metaTitle: Chaos Wheel - CZILLA
   metaDescription: >-
-    This is the blog of the demo site where we post about technology, product,
-    and design.
-  socialImage: /images/img-placeholder.svg
+    Experience the power of CZILLA's Chaos Wheel where every tweet unleashes burns, airdrops, and chaos in the crypto space.
+  socialImage: /images/main-hero.jpg
   type: Seo
 type: PostFeedLayout
 bottomSections: []
@@ -50,6 +49,6 @@ postFeed:
   actions: []
   elementId: null
   variant: three-col-grid
-  colors: bg-light-fg-dark
+  colors: bg-dark-fg-light
   hoverEffect: move-up
 ---
