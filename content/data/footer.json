@@ -49,8 +49,8 @@
                 "type": "Link"
             },
             {
-                "label": "Blog",
-                "url": "/blog",
+                "label": "Chaos Wheel",
+                "url": "/chaos",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",

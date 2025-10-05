@@ -1,6 +1,6 @@
 ---
 title: Chaos Wheel
-slug: /blog
+slug: /chaos
 numOfPostsPerPage: 8
 enableSearch: true
 topSections:

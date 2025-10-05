@@ -12,7 +12,7 @@ sections:
       Experience the power of CZILLA as it transforms the crypto space with every
       tweet. Join the revolution where chaos meets opportunity.
     actions:
-      - label: Enter Dashboard →
+      - label: Enter Broadcast →
         altText: 'Access CZILLA Dashboard'
         url: /dashboard
         showIcon: false
@@ -39,21 +39,20 @@ sections:
           - pr-16
   - type: FeaturedItemsSection
     title:
-      text: Key Benefits
-      color: text-dark
+      text: ⚙️ How CZILLA Works
+      color: text-primary
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Three steps to decentralized chaos
     items:
       - type: FeaturedItem
-        title: 500k
-        subtitle: Numbers Done
+        title: 1️⃣ CZ Tweets → The Trigger
+        subtitle: Every CZ post ignites the system
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Every time CZ posts on X, CZILLA wakes.
+          The system assigns 1x points per tweet and 0.5x per reply — each word counts toward the Daily Roar Score.
         actions: []
         elementId: null
         colors: bg-dark-fg-light
@@ -65,26 +64,25 @@ sections:
               - pb-8
               - pr-8
             borderRadius: x-large
-            flexDirection: row
+            flexDirection: col
             justifyContent: center
-            textAlign: left
+            textAlign: center
         image:
           type: ImageBlock
-          altText: Lightning bolt symbol on red background
+          altText: CZ logo glowing trigger symbol
           elementId: ''
           url: /images/icon1.svg
           styles:
             self:
               borderRadius: x-large
-      - title: 20x
-        subtitle: The Job Stuff
+      - title: 2️⃣ Roar Points → The Energy
+        subtitle: Community interaction fuels the core
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Roar points are the heartbeat of the ecosystem.
+          The more the community interacts and CZ speaks, the more energy builds up inside The Reactor Core — our Treasury.
         image:
           url: /images/icon2.svg
-          altText: Featured icon two
+          altText: Heartbeat energy reactor core symbol
           elementId: ''
           type: ImageBlock
         actions: []
@@ -97,19 +95,18 @@ sections:
               - pb-8
               - pr-8
             borderRadius: x-large
-            flexDirection: row
-            textAlign: left
+            flexDirection: col
+            textAlign: center
             justifyContent: center
         type: FeaturedItem
-      - title: 200%
-        subtitle: Faster
+      - title: 3️⃣ Chaos Wheel → The Outcome
+        subtitle: Pure decentralized unpredictability
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Every 24 hours, the accumulated Roar energy activates the Chaos Wheel, deciding between Airdrops or Buyback & Burn events.
+          No one controls the outcome — it's pure decentralized chaos.
         image:
           url: /images/icon3.svg
-          altText: Featured icon three
+          altText: Spinning chaos wheel symbol
           elementId: ''
           type: ImageBlock
         actions: []
@@ -122,20 +119,13 @@ sections:
               - pb-8
               - pr-8
             borderRadius: x-large
-            flexDirection: row
+            flexDirection: col
+            textAlign: center
+            justifyContent: center
         type: FeaturedItem
-    actions:
-      - label: Get started
-        altText: ''
-        url: /
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
-        type: Button
+    actions: []
     badge:
-      label: CRYPTO POWER
+      label: CHAOS UNLEASHED
       color: text-primary
       styles:
         self:
@@ -149,6 +139,135 @@ sections:
         padding:
           - pb-16
           - pt-16
+          - pl-16
+          - pr-16
+        justifyContent: center
+      subtitle:
+        textAlign: center
+  - type: GenericSection
+    title:
+      text: 🌍 The Roar Behind the Meme
+      color: text-primary
+      type: TitleBlock
+      styles:
+        self:
+          textAlign: center
+    text: >
+      CZILLA was born from the collective power of a community tired of empty meme coins.
+      Here, chaos has structure, and memes fuel real mechanisms — taxes that sustain liquidity, buybacks that stabilize value, and a Treasury that rewards holders.
+      
+      
+      Our goal? To merge entertainment and tokenomics into a self-sustaining ecosystem where every roar matters.
+      CZILLA is not a project — it's an evolution of the meme economy.
+    actions: []
+    badge:
+      label: ABOUT CZILLA
+      color: text-primary
+      styles:
+        self:
+          textAlign: center
+      type: Badge
+    elementId: ''
+    colors: bg-dark-fg-light
+    styles:
+      self:
+        padding:
+          - pt-16
+          - pl-16
+          - pb-16
+          - pr-16
+        justifyContent: center
+        flexDirection: col
+      subtitle:
+        textAlign: center
+    className: czilla-gradient-bg
+  - type: FeaturedItemsSection
+    title:
+      text: Core Features
+      color: text-primary
+      styles:
+        self:
+          textAlign: center
+      type: TitleBlock
+    items:
+      - type: FeaturedItem
+        title: 🦾 Dynamic tokenomics with measurable impact
+        text: >-
+          Real-time mechanisms that respond to market conditions and community activity, creating tangible value through transparent operations.
+        actions: []
+        elementId: null
+        colors: bg-dark-fg-light
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            borderRadius: large
+            flexDirection: col
+            justifyContent: center
+            textAlign: left
+      - title: 🎡 Real-time link to CZ's Twitter activity
+        text: >-
+          Every tweet and reply from CZ directly influences the ecosystem, creating immediate and transparent reactions that fuel the CZILLA engine.
+        actions: []
+        colors: bg-dark-fg-light
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            borderRadius: large
+            flexDirection: col
+            textAlign: left
+            justifyContent: center
+        type: FeaturedItem
+      - title: 💥 Community-driven energy accumulation
+        text: >-
+          The more the community engages and CZ tweets, the more energy builds up in our ecosystem, powering rewards and creating sustainable growth.
+        actions: []
+        colors: bg-dark-fg-light
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            borderRadius: large
+            flexDirection: col
+            textAlign: left
+            justifyContent: center
+        type: FeaturedItem
+      - title: 🔥 Transparent Treasury — the Reactor Core
+        text: >-
+          Our Treasury operates with full transparency, serving as the heart of CZILLA where all energy accumulates and distributions are decided by pure decentralized chaos.
+        actions: []
+        colors: bg-dark-fg-light
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            borderRadius: large
+            flexDirection: col
+            textAlign: left
+            justifyContent: center
+        type: FeaturedItem
+    actions: []
+    elementId: ''
+    variant: four-col-grid
+    colors: bg-dark-fg-light
+    styles:
+      self:
+        padding:
+          - pb-16
+          - pt-8
           - pl-16
           - pr-16
         justifyContent: center

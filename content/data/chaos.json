@@ -11,7 +11,7 @@
         {
             "label": "Chaos Wheel",
             "altText": "Chaos Wheel",
-            "url": "/blog",
+            "url": "/chaos",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
