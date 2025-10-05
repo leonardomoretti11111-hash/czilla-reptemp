@@ -21,7 +21,7 @@ export default function Header(props) {
                 'relative',
                 'shadow-header',
                 styles?.self?.margin ? mapStyles({ padding: styles?.self?.margin }) : undefined,
-                styles?.self?.padding ? mapStyles({ padding: styles?.self?.padding }) : 'p-4',
+                styles?.self?.padding ? mapStyles({ padding: styles?.self?.padding }) : 'p-8',
                 'z-50'
             )}
             {...(enableAnnotations && { 'data-sb-object-id': props?.__metadata?.id })}
