@@ -324,4 +324,34 @@
             transform: translate3d(0,0,0)
         }
     }
+
+    /* CZILLA Gradient and Pulse Effects */
+    .czilla-gradient-bg {
+        background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #333333 100%);
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .czilla-gradient-bg::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: radial-gradient(circle at center, rgba(255, 215, 0, 0.1) 0%, transparent 50%);
+        animation: pulse 3s ease-in-out infinite alternate;
+        pointer-events: none;
+    }
+    
+    @keyframes pulse {
+        0% {
+            opacity: 0.3;
+            transform: scale(1);
+        }
+        100% {
+            opacity: 0.7;
+            transform: scale(1.05);
+        }
+    }
 }
