@@ -1,0 +1,66 @@
+{
+    "primaryLinks": [
+        {
+            "label": "Home",
+            "url": "/",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
+        },
+        {
+            "label": "Chaos Wheel",
+            "altText": "Chaos Wheel",
+            "url": "/chaos",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
+        },
+        {
+            "label": "CZ Broadcast",
+            "altText": "CZ Broadcast page",
+            "url": "/careers",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
+        },
+        {
+            "label": "Dropdown",
+            "altText": "Dropdown",
+            "links": [
+                {
+                    "label": "Dropdown item",
+                    "url": "/",
+                    "icon": "arrowRight",
+                    "iconPosition": "right",
+                    "style": "secondary",
+                    "type": "Link"
+                },
+                {
+                    "label": "Dropdown item",
+                    "url": "/",
+                    "icon": "arrowRight",
+                    "iconPosition": "right",
+                    "style": "secondary",
+                    "type": "Link"
+                },
+                {
+                    "label": "Dropdown item",
+                    "url": "/",
+                    "icon": "arrowRight",
+                    "iconPosition": "right",
+                    "style": "secondary",
+                    "type": "Link"
+                }
+            ],
+            "labelStyle": "secondary",
+            "type": "SubNav"
+        }
+    ],
+    "secondaryLinks": [],
+    "variant": "logo-left-primary-nav-centered",
+    "colors": "bg-yellow-fg-dark",
+    "type": "Header"
+}
