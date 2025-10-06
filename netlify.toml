@@ -1,14 +1,75 @@
-[build]
-  command = "npm install && npm run build"
-  publish = "out"
-
-[functions]
-  directory = ""
+headersOrigin = "inline"
+redirectsOrigin = "inline"
+functionsDirectoryOrigin = "config"
 
 [dev]
-  command = "npm run dev"
-  port = 8888
-  framework = "next"
+command = "npm run dev"
+port = 8888
+framework = "next"
+
+[functions]
+
+  [functions."*"]
 
 [[plugins]]
-  package = "@netlify/plugin-nextjs"
+origin = "config"
+package = "@netlify/plugin-nextjs"
+pinned_version = "5"
+
+  [plugins.inputs]
+
+[build]
+publish = "/opt/build/repo/out"
+publishOrigin = "config"
+commandOrigin = "config"
+command = "npm install && npm run build"
+
+  [build.environment]
+
+  [build.processing]
+
+    [build.processing.css]
+
+    [build.processing.html]
+
+    [build.processing.images]
+
+    [build.processing.js]
+
+  [build.services]
+
+[[headers]]
+for = "/_next/static/*"
+
+  [headers.values]
+  Cache-Control = "public, max-age=31536000, immutable"
+
+[[redirects]]
+from = "/_next/image/"
+to = "/.netlify/images?url=:url&w=:width&q=:quality"
+status = 200
+force = false
+
+  [redirects.query]
+  url = ":url"
+  w = ":width"
+  q = ":quality"
+
+  [redirects.conditions]
+
+  [redirects.headers]
+
+[[redirects]]
+from = "/_ipx/*"
+to = "/.netlify/images?url=:url&w=:width&q=:quality"
+status = 200
+force = false
+
+  [redirects.query]
+  url = ":url"
+  w = ":width"
+  q = ":quality"
+
+  [redirects.conditions]
+
+  [redirects.headers]
